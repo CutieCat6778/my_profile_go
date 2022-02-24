@@ -1,0 +1,28 @@
+baseUrl: https://blog.thinh.tech
+languageCode:
+title: Thinh Nguyen
+theme: PaperMod
+
+enableRobotsTXT: true
+enableEmoji: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON
+
+params:
+    description: "Thinh Nguyen's personal blog"
+    author: Thinh Nguyen
+    homeInfoParams:
+        Title: Hi there 👋
+        Content: It is my personal blog
+    socialIcons: # optional
+        - name: github
+          url: "https://github.com/CutieCat6778"
+        - name: instagram
+          url: "https://instagram.com/txzje"
+    analytics:
+        google:
+          SiteVertificationTag: "UA-181088981-2"
